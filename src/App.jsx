@@ -118,7 +118,7 @@ function App() {
             <p className="study-message">Now seriously, go study for your internals! 📚</p>
             <p className="motivation-message">Remember: Failing to prepare is preparing to fail! 💪</p>
             <button className="credits-btn" onClick={() => setShowCredits(prev => !prev)}>
-              Show Credits
+              Made by 
             </button>
             {showCredits && (
               <div className="credits-box">
